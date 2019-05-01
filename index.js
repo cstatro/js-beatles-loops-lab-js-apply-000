@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   let messageArray = []
-  let index = 0
+  let index = -1
   do{
     messageArray.push('I love the Beatles!')
     index++
