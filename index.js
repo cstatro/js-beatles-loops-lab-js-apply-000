@@ -8,11 +8,22 @@ function theBeatlesPlay(bandMembers,instruments){
 }
 
 function johnLennonFacts(facts){
-  let index = 0;
-  let fact_array = [];
+  let index = 0
+  let factArray = []
   while(index < facts.length){
-    fact_array.push(`${facts[index]}!!!`)
+    factArray.push(`${facts[index]}!!!`)
     index++
   }
-  return fact_array
+  return factArray
+}
+
+function iLoveTheBeatles(num){
+  let messageArray = []
+  let index = 0
+  do{
+    messageArray.push('I love the Beatles!')
+    index++
+  }
+  while (index < num)
+  return messageArray
 }
