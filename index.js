@@ -22,7 +22,12 @@ function iLoveTheBeatles(num){
   let index = -1
   do{
     messageArray.push('I love the Beatles!')
-    index++
+    if (num >= 15){
+      return messageArray
+    }
+    else{
+      index++
+    }
   }
   while (index < num )
   return messageArray
