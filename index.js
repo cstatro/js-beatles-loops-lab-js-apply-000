@@ -24,6 +24,6 @@ function iLoveTheBeatles(num){
     messageArray.push('I love the Beatles!')
     index++
   }
-  while (index < num || num >= 15)
+  while (index < num )
   return messageArray
 }
